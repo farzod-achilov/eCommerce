@@ -13,11 +13,68 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: #1f2937;
+}
+
+.section {
+  padding: 50px 0;
 }
 
 .container {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.header .header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+}
+.header .header__nav a {
+  /* Body Small (SemiBold) */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 135%;
+  display: inline-block;
+  text-decoration: none;
+  color: transparent;
+  color: #ffffff;
+  display: inline-flex;
+  margin: 0 5px;
+}
+
+.hero .hero__inner {
+  display: flex;
+}
+.hero .hero__content h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Rounded";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 96px;
+  line-height: 86px;
+  color: #5fd788;
+}
+.hero .hero__content p {
+  /* Body Medium (SemiBold) */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #9ca3af;
 }/*# sourceMappingURL=main.css.map */

@@ -9,14 +9,52 @@
   </head>
 </html>
 <body>
-  <header>
+  <header class="header">
     <div class="container">
-      <h1>
-        <a href="/">
-          <img src="/img/Logo.svg" alt="Logo" width="102px" height="24px" />
-          <span class="visually-hidden">eCommerce</span>
-        </a>
-      </h1>
+      <div class="header__inner">
+        <h1 class="header__logo">
+          <a href="/">
+            <img src="/img/Logo.svg" alt="Logo" width="102px" height="24px" />
+            <span class="visually-hidden">eCommerce</span>
+          </a>
+        </h1>
+        <nav>
+          <ul class="header__nav">
+            <li><a href="#Home">HOME</a></li>
+            <li><a href="#about-us">ABOUT US</a></li>
+            <li><a href="#shop">SHOP</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div class="header__img">
+          <img src="./img/shop.png" alt="shop" />
+          <img src="./img/lupa.png" alt="lupa" />
+        </div>
+      </div>
     </div>
   </header>
+  <main>
+    <section class="section">
+      <div class="hero">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <h2 class="hero__caption">Pear kiwi & Mint</h2>
+            <p hero__subtitle>
+              They say that home is where the heart is. Perhaps that’s why a
+              feeling of loss is so apparent when you are far from the ones you
+              love.
+            </p>
+          </div>
+          <div class="hero__img">
+            <img
+              src="./img/hero-img.png"
+              width="720px"
+              height="520px"
+              alt="hero-img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>

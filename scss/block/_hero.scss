@@ -1,0 +1,22 @@
+.hero {
+  .hero__inner {
+    display: flex;
+  }
+
+  .hero__content {
+    h2 {
+      @include headerText;
+      font-family: "SF Pro Rounded";
+      font-weight: 600;
+      font-style: normal;
+      font-size: 96px;
+      line-height: 86px;
+      color: $green;
+    }
+
+    p {
+      @include headerText(large-Medium-SemiBold);
+      color: $grey400;
+    }
+  }
+}
