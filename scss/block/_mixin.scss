@@ -1,36 +1,38 @@
 @mixin headerText($heading: none) {
+  margin: 0;
+  padding: 0;
   @if $heading == none {
     margin: 0;
     padding: 0;
-  } @else if $heading == h1 {
+  } @else if $heading == H1 {
     /* Heading / H1 */
     font-family: "SF Pro Display";
     font-weight: 900;
     font-size: 40px;
     font-style: normal;
     line-height: 48px;
-  } @else if $heading == h2 {
+  } @else if $heading == H2 {
     /* Heading / H2 */
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 100%;
-  } @else if $heading == h3 {
+  } @else if $heading == H3 {
     /* Heading / H3 */
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 135%;
-  } @else if heading == h4 {
+  } @else if $heading == H4 {
     /* Heading / H4 */
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 140%;
-  } @else if $heading == h5 {
+  } @else if $heading == H5 {
     /* Heading / H5 */
     font-family: "SF Pro Display";
     font-style: normal;
@@ -38,7 +40,7 @@
     font-size: 18px;
     line-height: 135%;
     letter-spacing: 0.3px;
-  } @else if $heading == h5 {
+  } @else if $heading == H6 {
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;

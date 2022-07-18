@@ -32,6 +32,12 @@ body {
   padding: 12px 30px;
 }
 
+.btn-secondary {
+  background-color: #1f2937;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+
 .container {
   max-width: 1440px;
   padding: 0 5px;
@@ -52,6 +58,8 @@ body {
   margin-left: auto;
 }
 .header .header__nav a {
+  margin: 0;
+  padding: 0;
   /* Body Small (SemiBold) */
   font-family: "SF Pro Display";
   font-style: normal;
@@ -85,6 +93,8 @@ body {
 .hero .hero__content h2 {
   margin: 0;
   padding: 0;
+  margin: 0;
+  padding: 0;
   text-align: start;
   font-family: "SF Pro Rounded";
   font-weight: 600;
@@ -96,6 +106,8 @@ body {
 }
 .hero .hero__content p {
   text-align: start;
+  margin: 0;
+  padding: 0;
   /* Body Medium (SemiBold) */
   font-family: "SF Pro Display";
   font-style: normal;
@@ -131,6 +143,8 @@ body {
   color: #5fd788;
 }
 .categories .categories__card p {
+  margin: 0;
+  padding: 0;
   /* Body Medium (SemiBold) */
   font-family: "SF Pro Display";
   font-style: normal;
@@ -161,6 +175,8 @@ body {
 .img-with-text .img-with-text__content h2 {
   margin: 0;
   padding: 0;
+  margin: 0;
+  padding: 0;
   font-family: "SF Pro Rounded";
   font-style: normal;
   font-weight: 600;
@@ -172,6 +188,8 @@ body {
   padding-bottom: 32px;
 }
 .img-with-text .img-with-text__content p {
+  margin: 0;
+  padding: 0;
   /* Body Medium (SemiBold) */
   font-family: "SF Pro Display";
   font-style: normal;
@@ -194,4 +212,245 @@ body {
   margin-left: auto;
   max-width: 270px;
   letter-spacing: 0.01em;
+}
+
+.featured-product {
+  min-height: 615px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/img/visual-flower.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.featured-product--bg {
+  background-image: url("/img/trends.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.featured-product .featured-product__content {
+  margin-left: 96px;
+}
+.featured-product .featured-product__content h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 107.9%;
+  letter-spacing: 0.01em;
+  color: #5fd788;
+}
+.featured-product .featured-product__content a {
+  display: inline-block;
+  text-decoration: none;
+  color: transparent;
+  width: 241px;
+  text-decoration: none;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #1f2937;
+}
+
+.featered-product__img {
+  display: flex;
+}
+.featered-product__img button {
+  border-color: transparent;
+  background-color: #374151;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 61px;
+  cursor: pointer;
+}
+.featered-product__img button:hover {
+  background-color: #5fd788;
+}
+.featered-product__img .featered-product__img-content--bg-aroma {
+  background-image: url("/img/aroma-bg.png");
+  width: 100%;
+  height: 91px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 12px;
+  left: 3px;
+}
+.featered-product__img .featered-product__img-content--bg-lux {
+  background-image: url("/img/lux-bg.png");
+  width: 100%;
+  height: 91px;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 12px;
+  left: 3px;
+}
+
+.featered-product__img-card {
+  position: relative;
+}
+
+.featered-product__img-content {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 10px;
+}
+.featered-product__img-content .featered-product__img-content-header {
+  display: flex;
+}
+.featered-product__img-content h4 {
+  margin: 0;
+  padding: 0;
+  /* Heading / H4 */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #1f2937;
+}
+.featered-product__img-content span {
+  margin-top: 11px;
+  margin-left: 5px;
+  width: 18px;
+  height: 9px;
+  background: #5fd788;
+  border-radius: 8px;
+  display: inline-block;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 97.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.featered-product__img-content .featered-product__img-content-subtitle {
+  display: flex;
+}
+.featered-product__img-content .featered-product__img-content-subtitle p {
+  margin: 0;
+  padding: 0;
+  /* Body Medium (Regular) */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+  color: #6b7280;
+  text-align: left;
+  max-width: 278px;
+  padding-right: 61px;
+}
+.featered-product__img-content .featered-product__img-content-subtitle a {
+  display: inline-block;
+  text-decoration: none;
+  color: transparent;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.img-text {
+  display: flex;
+}
+.img-text .img-text__content {
+  max-height: 515px;
+  padding: 105px 100px;
+  background-color: #5fd788;
+  background-image: url("/img/texture-section.png");
+}
+.img-text .img-text__content h2 {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 119.4%;
+  letter-spacing: 0.01em;
+  color: #1f2937;
+  margin-bottom: 35px;
+}
+.img-text .img-text__content a {
+  display: inline-block;
+  text-decoration: none;
+  color: transparent;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 97.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  width: 214px;
+}
+
+.blog h2 {
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 107.9%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #5fd788;
+  margin-bottom: 56px;
+}
+.blog .blog__inner {
+  display: flex;
+  justify-content: center;
+}
+.blog .blog__inner .blog__card {
+  background: #374151;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  justify-content: center;
+  margin: 0 12px;
+}
+.blog .blog__inner .blog__card .blog__card-content {
+  max-width: 371px;
+  padding: 23px;
+}
+.blog .blog__inner .blog__card .blog__card-content h3 {
+  margin: 0;
+  padding: 0;
+  /* Heading / H4 */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #5fd788;
+  border-bottom: 1px solid #4b5563;
+  padding-bottom: 12px;
+}
+.blog .blog__inner .blog__card .blog__card-content p {
+  margin: 0;
+  padding: 0;
+  /* Body Large (Medium) */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #9ca3af;
+  margin-top: 23px;
 }/*# sourceMappingURL=main.css.map */

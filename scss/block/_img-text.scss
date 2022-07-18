@@ -1,0 +1,35 @@
+.img-text {
+  display: flex;
+
+  .img-text__content {
+    max-height: 515px;
+    padding: 105px 100px;
+    background-color: $color-green;
+    background-image: url("/img/texture-section.png");
+
+    h2 {
+      @include headerText;
+      font-family: "SF Pro Rounded";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 119.4%;
+      letter-spacing: 0.01em;
+      color: $color-grey800;
+      margin-bottom: 35px;
+    }
+    a {
+      @include linkReset;
+      font-family: "Quicksand";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 97.9%;
+      text-align: center;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: $color-grey100;
+      width: 214px;
+    }
+  }
+}
