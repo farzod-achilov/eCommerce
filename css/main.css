@@ -26,9 +26,15 @@ body {
   padding: 0 0 50px 0;
 }
 
+.btn {
+  background-color: #5fd788;
+  border-radius: 8px;
+  padding: 12px 30px;
+}
+
 .container {
   max-width: 1440px;
-  padding: 0 15px;
+  padding: 0 5px;
   margin: 0 auto;
 }
 
@@ -86,6 +92,7 @@ body {
   font-size: 96px;
   line-height: 86px;
   color: #5fd788;
+  padding-bottom: 38px;
 }
 .hero .hero__content p {
   text-align: start;
@@ -96,4 +103,95 @@ body {
   font-size: 14px;
   line-height: 140%;
   color: #9ca3af;
+}
+
+.categories .categories__card {
+  display: flex;
+  padding: 102px 0;
+}
+.categories .categories__card ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 70px 85px;
+  background: #374151;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 20px;
+}
+.categories .categories__card ul:hover {
+  background-color: #5fd788;
+}
+.categories .categories__card ul:hover a svg path:first-child {
+  color: #ffffff;
+}
+.categories .categories__card ul:hover p {
+  color: #ffffff;
+}
+.categories .categories__card a {
+  color: #5fd788;
+}
+.categories .categories__card p {
+  /* Body Medium (SemiBold) */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #5fd788;
+  text-align: center;
+}
+
+.categories__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-with-text {
+  padding-right: 91px;
+}
+.img-with-text .img-with-text__inner {
+  display: flex;
+}
+.img-with-text .img-with-text__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-with-text .img-with-text__content h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Rounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 107.9%;
+  text-align: right;
+  letter-spacing: 0.01em;
+  color: #5fd788;
+  padding-bottom: 32px;
+}
+.img-with-text .img-with-text__content p {
+  /* Body Medium (SemiBold) */
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+  margin-left: auto;
+  max-width: 347px;
+  color: #9ca3af;
+  padding-bottom: 24px;
+}
+.img-with-text a {
+  display: inline-block;
+  text-decoration: none;
+  color: transparent;
+  flex-wrap: wrap;
+  color: #1f2937;
+  text-align: right;
+  margin-left: auto;
+  max-width: 270px;
+  letter-spacing: 0.01em;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,43 @@
+.img-with-text {
+  padding-right: 91px;
+  .img-with-text__inner {
+    display: flex;
+  }
+
+  .img-with-text__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      @include headerText;
+      font-family: "SF Pro Rounded";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 107.9%;
+      text-align: right;
+      letter-spacing: 0.01em;
+      color: $color-green;
+      padding-bottom: 32px;
+    }
+
+    p {
+      @include headerText(large-Medium-SemiBold);
+      text-align: right;
+      margin-left: auto;
+      max-width: 347px;
+      color: $color-grey400;
+      padding-bottom: 24px;
+    }
+  }
+  a {
+    @include linkReset;
+    flex-wrap: wrap;
+    color: $color-grey800;
+    text-align: right;
+    margin-left: auto;
+    max-width: 270px;
+    letter-spacing: 0.01em;
+  }
+}

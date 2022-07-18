@@ -13,7 +13,7 @@
     a {
       @include headerText(large-Small-SemiBold);
       @include linkReset;
-      color: $white;
+      color: $color-white;
       display: inline-flex;
       margin: 0 5px;
     }

@@ -19,9 +19,15 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: $grey800;
+  background-color: $color-grey800;
 }
 
 .section {
   padding: 0 0 50px 0;
+}
+
+.btn {
+  background-color: $color-green;
+  border-radius: 8px;
+  padding: 12px 30px;
 }
