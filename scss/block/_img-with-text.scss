@@ -1,5 +1,17 @@
 .img-with-text {
   padding-right: 91px;
+
+  @media (max-width: $desktop) {
+    padding: 200px 0;
+    background-image: url("/img/img-with-text-bg-laptop.png");
+    background-position: left;
+    background-repeat: no-repeat;
+
+    img {
+      width: 0;
+      opacity: 0;
+    }
+  }
   .img-with-text__inner {
     display: flex;
   }
@@ -11,7 +23,7 @@
 
     h2 {
       @include headerText;
-      font-family: "SF Pro Rounded";
+      font-family: "Roboto", sans-serif;
       font-style: normal;
       font-weight: 600;
       font-size: 50px;
@@ -20,6 +32,16 @@
       letter-spacing: 0.01em;
       color: $color-green;
       padding-bottom: 32px;
+
+      @media (max-width: $desktop) {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 107.9%;
+        text-align: right;
+        letter-spacing: 0.01em;
+      }
     }
 
     p {

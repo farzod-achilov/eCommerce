@@ -3,8 +3,25 @@
   background-image: url("/img/hero-bg-img.png");
   background-repeat: no-repeat;
   background-position: top right;
+
+  @media (max-width: $desktop) {
+    padding: 0;
+    padding-top: 269px;
+    padding-left: 100px;
+    background-image: url("/img/laptop-bg.png");
+    z-index: -1;
+
+    img {
+      width: 290px;
+      height: 196px;
+    }
+  }
   .hero__inner {
     display: flex;
+
+    @media (max-width: $desktop) {
+      justify-content: center;
+    }
   }
 
   .hero__content {
@@ -13,10 +30,17 @@
     display: flex;
     justify-content: center;
     text-align: center;
+
+    @media (max-width: $desktop) {
+      padding-right: 18px;
+      h2 {
+        min-width: 395px;
+      }
+    }
     h2 {
       @include headerText;
       text-align: start;
-      font-family: "SF Pro Rounded";
+      font-family: "Roboto", sans-serif;
       font-weight: 600;
       font-style: normal;
       font-size: 96px;

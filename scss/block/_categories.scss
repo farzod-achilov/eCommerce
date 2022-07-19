@@ -2,12 +2,19 @@
   .categories__card {
     display: flex;
     padding: 102px 0;
+    @media (max-width: $desktop) {
+      flex-direction: column;
+    }
     ul {
       @include listReset;
       padding: 70px 85px;
       background: $color-grey700;
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
       border-radius: 0px 20px;
+
+      @media (max-width: $desktop) {
+        margin-bottom: 46px;
+      }
 
       &:hover {
         background-color: $color-green;
